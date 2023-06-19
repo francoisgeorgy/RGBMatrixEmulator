@@ -1,0 +1,5 @@
+Pillow~=9.5.0
+setuptools~=65.5.1
+tornado~=6.3.2
+pygame~=2.4.0
+bdfparser~=2.2.0
