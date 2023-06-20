@@ -14,11 +14,6 @@ adapters = [
         'type': 'pygame'
     },
     {
-        'path': 'RGBMatrixEmulator.adapters.sixel_adapter',
-        'class': 'SixelAdapter',
-        'type': 'sixel'
-    },
-    {
         'path': 'RGBMatrixEmulator.adapters.terminal_adapter',
         'class': 'TerminalAdapter',
         'type': 'terminal'
