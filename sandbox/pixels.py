@@ -38,7 +38,7 @@ class Pixels(SandboxBase):
             p = rand_pixel()
             # print('in', p)
             d.append(p)
-            offset_canvas.SetPixel(p[0], p[1], p[2], p[3], p[4])
+            offset_canvas.SetPixel(*p)
             offset_canvas = self.matrix.SwapOnVSync(offset_canvas)
             if len(d) >= items:
                 x, y, r, g, b = d.popleft()
